@@ -10,30 +10,7 @@
 		BE84571516DCC1BE00DFD1C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE84571416DCC1BE00DFD1C0 /* Foundation.framework */; };
 		BE84571A16DCC1BE00DFD1C0 /* CSURITemplate.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = BE84571916DCC1BE00DFD1C0 /* CSURITemplate.h */; };
 		BE84571C16DCC1BE00DFD1C0 /* CSURITemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE84571B16DCC1BE00DFD1C0 /* CSURITemplate.m */; };
-		BE84572416DCC1BE00DFD1C0 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE84572316DCC1BE00DFD1C0 /* SenTestingKit.framework */; };
-		BE84572616DCC1BE00DFD1C0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE84572516DCC1BE00DFD1C0 /* UIKit.framework */; };
-		BE84572716DCC1BE00DFD1C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE84571416DCC1BE00DFD1C0 /* Foundation.framework */; };
-		BE84572A16DCC1BE00DFD1C0 /* libCSURITemplate.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BE84571116DCC1BE00DFD1C0 /* libCSURITemplate.a */; };
-		BE84573016DCC1BF00DFD1C0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BE84572E16DCC1BF00DFD1C0 /* InfoPlist.strings */; };
-		BE84573316DCC1BF00DFD1C0 /* CSURITemplateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE84573216DCC1BF00DFD1C0 /* CSURITemplateTests.m */; };
-		BE84574516DCC8B000DFD1C0 /* extended-tests.json in Resources */ = {isa = PBXBuildFile; fileRef = BE84573E16DCC8B000DFD1C0 /* extended-tests.json */; };
-		BE84574616DCC8B000DFD1C0 /* json2xml.xslt in Resources */ = {isa = PBXBuildFile; fileRef = BE84573F16DCC8B000DFD1C0 /* json2xml.xslt */; };
-		BE84574716DCC8B000DFD1C0 /* negative-tests.json in Resources */ = {isa = PBXBuildFile; fileRef = BE84574016DCC8B000DFD1C0 /* negative-tests.json */; };
-		BE84574816DCC8B000DFD1C0 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = BE84574116DCC8B000DFD1C0 /* README.md */; };
-		BE84574916DCC8B000DFD1C0 /* spec-examples-by-section.json in Resources */ = {isa = PBXBuildFile; fileRef = BE84574216DCC8B000DFD1C0 /* spec-examples-by-section.json */; };
-		BE84574A16DCC8B000DFD1C0 /* spec-examples.json in Resources */ = {isa = PBXBuildFile; fileRef = BE84574316DCC8B000DFD1C0 /* spec-examples.json */; };
-		BE84574B16DCC8B000DFD1C0 /* transform-json-tests.xslt in Resources */ = {isa = PBXBuildFile; fileRef = BE84574416DCC8B000DFD1C0 /* transform-json-tests.xslt */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		BE84572816DCC1BE00DFD1C0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BE84570916DCC1BE00DFD1C0 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BE84571016DCC1BE00DFD1C0;
-			remoteInfo = CSURITemplate;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		BE84570F16DCC1BE00DFD1C0 /* CopyFiles */ = {
@@ -54,19 +31,8 @@
 		BE84571816DCC1BE00DFD1C0 /* CSURITemplate-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CSURITemplate-Prefix.pch"; sourceTree = "<group>"; };
 		BE84571916DCC1BE00DFD1C0 /* CSURITemplate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSURITemplate.h; sourceTree = "<group>"; };
 		BE84571B16DCC1BE00DFD1C0 /* CSURITemplate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSURITemplate.m; sourceTree = "<group>"; };
-		BE84572216DCC1BE00DFD1C0 /* CSURITemplateTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CSURITemplateTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE84572316DCC1BE00DFD1C0 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		BE84572516DCC1BE00DFD1C0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		BE84572D16DCC1BF00DFD1C0 /* CSURITemplateTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CSURITemplateTests-Info.plist"; sourceTree = "<group>"; };
-		BE84572F16DCC1BF00DFD1C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		BE84573216DCC1BF00DFD1C0 /* CSURITemplateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSURITemplateTests.m; sourceTree = "<group>"; };
-		BE84573E16DCC8B000DFD1C0 /* extended-tests.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "extended-tests.json"; sourceTree = "<group>"; };
-		BE84573F16DCC8B000DFD1C0 /* json2xml.xslt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = json2xml.xslt; sourceTree = "<group>"; };
-		BE84574016DCC8B000DFD1C0 /* negative-tests.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "negative-tests.json"; sourceTree = "<group>"; };
-		BE84574116DCC8B000DFD1C0 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
-		BE84574216DCC8B000DFD1C0 /* spec-examples-by-section.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "spec-examples-by-section.json"; sourceTree = "<group>"; };
-		BE84574316DCC8B000DFD1C0 /* spec-examples.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "spec-examples.json"; sourceTree = "<group>"; };
-		BE84574416DCC8B000DFD1C0 /* transform-json-tests.xslt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "transform-json-tests.xslt"; sourceTree = "<group>"; };
 		BE84576616DF64AB00DFD1C0 /* CSURITemplate.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; fileEncoding = 4; indentWidth = 2; path = CSURITemplate.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BE84576716DF7AF900DFD1C0 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		BE84576816DF7AF900DFD1C0 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
@@ -81,17 +47,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BE84571E16DCC1BE00DFD1C0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BE84572416DCC1BE00DFD1C0 /* SenTestingKit.framework in Frameworks */,
-				BE84572616DCC1BE00DFD1C0 /* UIKit.framework in Frameworks */,
-				BE84572716DCC1BE00DFD1C0 /* Foundation.framework in Frameworks */,
-				BE84572A16DCC1BE00DFD1C0 /* libCSURITemplate.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -99,7 +54,6 @@
 			isa = PBXGroup;
 			children = (
 				BE84571616DCC1BE00DFD1C0 /* CSURITemplate */,
-				BE84572B16DCC1BF00DFD1C0 /* CSURITemplateTests */,
 				BE84571316DCC1BE00DFD1C0 /* Frameworks */,
 				BE84571216DCC1BE00DFD1C0 /* Products */,
 				BE84576616DF64AB00DFD1C0 /* CSURITemplate.podspec */,
@@ -112,7 +66,6 @@
 			isa = PBXGroup;
 			children = (
 				BE84571116DCC1BE00DFD1C0 /* libCSURITemplate.a */,
-				BE84572216DCC1BE00DFD1C0 /* CSURITemplateTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -145,39 +98,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		BE84572B16DCC1BF00DFD1C0 /* CSURITemplateTests */ = {
-			isa = PBXGroup;
-			children = (
-				BE84573D16DCC8B000DFD1C0 /* uritemplate-test */,
-				BE84573216DCC1BF00DFD1C0 /* CSURITemplateTests.m */,
-				BE84572C16DCC1BF00DFD1C0 /* Supporting Files */,
-			);
-			path = CSURITemplateTests;
-			sourceTree = "<group>";
-		};
-		BE84572C16DCC1BF00DFD1C0 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				BE84572D16DCC1BF00DFD1C0 /* CSURITemplateTests-Info.plist */,
-				BE84572E16DCC1BF00DFD1C0 /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		BE84573D16DCC8B000DFD1C0 /* uritemplate-test */ = {
-			isa = PBXGroup;
-			children = (
-				BE84573E16DCC8B000DFD1C0 /* extended-tests.json */,
-				BE84573F16DCC8B000DFD1C0 /* json2xml.xslt */,
-				BE84574016DCC8B000DFD1C0 /* negative-tests.json */,
-				BE84574116DCC8B000DFD1C0 /* README.md */,
-				BE84574216DCC8B000DFD1C0 /* spec-examples-by-section.json */,
-				BE84574316DCC8B000DFD1C0 /* spec-examples.json */,
-				BE84574416DCC8B000DFD1C0 /* transform-json-tests.xslt */,
-			);
-			path = "uritemplate-test";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -198,31 +118,13 @@
 			productReference = BE84571116DCC1BE00DFD1C0 /* libCSURITemplate.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		BE84572116DCC1BE00DFD1C0 /* CSURITemplateTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BE84573916DCC1BF00DFD1C0 /* Build configuration list for PBXNativeTarget "CSURITemplateTests" */;
-			buildPhases = (
-				BE84571D16DCC1BE00DFD1C0 /* Sources */,
-				BE84571E16DCC1BE00DFD1C0 /* Frameworks */,
-				BE84571F16DCC1BE00DFD1C0 /* Resources */,
-				BE84572016DCC1BE00DFD1C0 /* ShellScript */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				BE84572916DCC1BE00DFD1C0 /* PBXTargetDependency */,
-			);
-			name = CSURITemplateTests;
-			productName = CSURITemplateTests;
-			productReference = BE84572216DCC1BE00DFD1C0 /* CSURITemplateTests.octest */;
-			productType = "com.apple.product-type.bundle";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		BE84570916DCC1BE00DFD1C0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastTestingUpgradeCheck = 0700;
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Cogenta Systems Ltd";
 			};
@@ -239,44 +141,9 @@
 			projectRoot = "";
 			targets = (
 				BE84571016DCC1BE00DFD1C0 /* CSURITemplate */,
-				BE84572116DCC1BE00DFD1C0 /* CSURITemplateTests */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXResourcesBuildPhase section */
-		BE84571F16DCC1BE00DFD1C0 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BE84573016DCC1BF00DFD1C0 /* InfoPlist.strings in Resources */,
-				BE84574516DCC8B000DFD1C0 /* extended-tests.json in Resources */,
-				BE84574616DCC8B000DFD1C0 /* json2xml.xslt in Resources */,
-				BE84574716DCC8B000DFD1C0 /* negative-tests.json in Resources */,
-				BE84574816DCC8B000DFD1C0 /* README.md in Resources */,
-				BE84574916DCC8B000DFD1C0 /* spec-examples-by-section.json in Resources */,
-				BE84574A16DCC8B000DFD1C0 /* spec-examples.json in Resources */,
-				BE84574B16DCC8B000DFD1C0 /* transform-json-tests.xslt in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		BE84572016DCC1BE00DFD1C0 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BE84570D16DCC1BE00DFD1C0 /* Sources */ = {
@@ -287,34 +154,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BE84571D16DCC1BE00DFD1C0 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BE84573316DCC1BF00DFD1C0 /* CSURITemplateTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		BE84572916DCC1BE00DFD1C0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = BE84571016DCC1BE00DFD1C0 /* CSURITemplate */;
-			targetProxy = BE84572816DCC1BE00DFD1C0 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		BE84572E16DCC1BF00DFD1C0 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BE84572F16DCC1BF00DFD1C0 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		BE84573416DCC1BF00DFD1C0 /* Debug */ = {
@@ -408,36 +248,6 @@
 			};
 			name = Release;
 		};
-		BE84573A16DCC1BF00DFD1C0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "CSURITemplate/CSURITemplate-Prefix.pch";
-				INFOPLIST_FILE = "CSURITemplateTests/CSURITemplateTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Debug;
-		};
-		BE84573B16DCC1BF00DFD1C0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "CSURITemplate/CSURITemplate-Prefix.pch";
-				INFOPLIST_FILE = "CSURITemplateTests/CSURITemplateTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -455,15 +265,6 @@
 			buildConfigurations = (
 				BE84573716DCC1BF00DFD1C0 /* Debug */,
 				BE84573816DCC1BF00DFD1C0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BE84573916DCC1BF00DFD1C0 /* Build configuration list for PBXNativeTarget "CSURITemplateTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BE84573A16DCC1BF00DFD1C0 /* Debug */,
-				BE84573B16DCC1BF00DFD1C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
