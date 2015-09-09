@@ -857,8 +857,9 @@ NSString *const CSURITemplateErrorScanLocationErrorKey = @"location";
         return nil;
     }
     NSMutableCharacterSet *varchars = [NSMutableCharacterSet alphanumericCharacterSet];
-    [varchars addCharactersInString:@"._%"];
-                                
+    [varchars addCharactersInString:@"._-%"];
+
+
     NSCharacterSet *modifierStartCharacters = [NSCharacterSet characterSetWithCharactersInString:@":*"];
     NSScanner *scanner = [NSScanner scannerWithString:varspec];
     [scanner setCharactersToBeSkipped:[NSCharacterSet characterSetWithCharactersInString:@""]];
